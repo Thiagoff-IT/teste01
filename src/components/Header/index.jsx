@@ -9,7 +9,7 @@ import bs from '../../assets/image/bs.png'
 import BrIcon from '../../assets/image/icon/br-icon.png'
 import EsIcon from '../../assets/image/icon/es-icon.png'
 import UsIcon from '../../assets/image/icon/us-icon.png'
-import ArIcon from '../../assets/image/icon/ar-icon.png'
+//import ArIcon from '../../assets/image/icon/ar-icon.png'
 
 export default function Header() {
   return (
@@ -78,7 +78,7 @@ export default function Header() {
           <img src={BrIcon} alt="" className="w-7 h-3.5 self-center" />
           <img src={EsIcon} alt="" className="w-7 h-3.5 self-center" />
           <img src={UsIcon} alt="" className="w-7 h-3.5 self-center" />
-          <img src={ArIcon} alt="" className="w-7 h-3.5 self-center" />
+          <img src={BrIcon} alt="" className="w-7 h-3.5 self-center" />
         </div>
       </div>  
     </div>
