@@ -20,11 +20,13 @@ export default function Footer() {
                text-gray-500 
                sm:text-center 
                dark:text-gray-400"
-               >© 2022 <a href="https://flowbite.com" class="hover:underline" target="_blank">Flowbite™</a>. All Rights Reserved.
+               >© 2022 <a href="" class="hover:underline" target="_blank">Nauber™</a>. All Rights Reserved.
     </span>
 		<ul class="flex flex-wrap items-center mt-3 sm:mt-0">
 			<li>
-				<a href="#" class="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400">About</a>
+				<a href="#" class="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400">
+          Produtos
+        </a>
 			</li>
 			<li>
 				<a href="#" class="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400">Privacy

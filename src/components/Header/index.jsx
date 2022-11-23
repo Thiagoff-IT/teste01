@@ -4,14 +4,18 @@ import react from 'react'
 import './styles.css';
 
 import logoImg from '../../assets/image/logo.png'
-import rv from '../../assets/image/rv.png'
-import bs from '../../assets/image/bs.png'
+import rv      from '../../assets/image/rv.png'
+import bs      from '../../assets/image/bs.png'
+
 import BrIcon from '../../assets/image/icon/br-icon.png'
 import EsIcon from '../../assets/image/icon/es-icon.png'
 import UsIcon from '../../assets/image/icon/us-icon.png'
-//import ArIcon from '../../assets/image/icon/ar-icon.png'
+import ArIcon from '../../assets/image/icon/ar-icon.png'
 
 export default function Header() {
+
+
+
   return (
     <>
     <nav className="font-sans 
@@ -69,7 +73,7 @@ export default function Header() {
         </form>
 
       <div className="flex">
-        <div className="flex items-center justify-between container-navbar">
+    <div className="container-navbar">
       <img src={rv} alt="Nauber" className="w-10 h-11 my-auto" />
         <a href="/" className=" text-xs no-underline text-grey-darkest">CONHEÇA O SISTEMA<br /> DE REVÊNDA<br /> <strong>NAUBER PRO</strong></a>
         <img src={bs} alt="Nauber" className="w-44 h-12 my-auto" />
@@ -78,7 +82,7 @@ export default function Header() {
           <img src={BrIcon} alt="" className="w-7 h-3.5 self-center" />
           <img src={EsIcon} alt="" className="w-7 h-3.5 self-center" />
           <img src={UsIcon} alt="" className="w-7 h-3.5 self-center" />
-          <img src={BrIcon} alt="" className="w-7 h-3.5 self-center" />
+          <img src={ArIcon} alt="" className="w-7 h-3.5 self-center" />
         </div>
       </div>  
     </div>
@@ -99,13 +103,13 @@ export default function Header() {
                     sm:items-baseline 
                     w-4/5">
       <div className="container">
-        <a href="/" className="text-amber-300">HOME </a>
-        <a href="/" className="flex grow ">EMPRESA </a>
-        <a href="/" className="block md:inline-block">PRODUTOS </a>
-        <a href="/" className="block md:inline-block">ASSISTÊNCIAS </a>
-        <a href="/" className="block md:inline-block">CATÁLOGOS VIRTUAIS </a>
-        <a href="/" className="block md:inline-block">CONTATO </a>
-        <a href="/" className="block md:inline-block"> login </a>
+        <a href="/" className="text-amber-300 link">HOME </a>
+        <a href="/" className="link ">EMPRESA </a>
+        <a href="/" className="link">PRODUTOS </a>
+        <a href="/" className="link">ASSISTÊNCIAS </a>
+        <a href="/" className="link">CATÁLOGOS VIRTUAIS </a>
+        <a href="/" className="link">CONTATO </a>
+        <a href="/" className="link"> login </a>
       </div>
     </nav>
 
