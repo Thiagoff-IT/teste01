@@ -1,25 +1,42 @@
 .slides {
   position: absolute;
-  top: 7rem;
+  top: 6rem;
   z-index: -12;
-  width: 1750px;
-  height: 75%;
-  background-image: linear-gradient(#107A46, #03850F);
+  width: 200vw;
+  background: linear-gradient(#107A46, #03850F);
 }
 
 .text {
   position: absolute;
 width: 909px;
 height: 39.18px;
-left: 263px;
-top: 278px;
+left: 30rem;
+top: 350px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 24px;
+font-size: 35px;
 line-height: 29px;
 text-align: center;
 
 color: #FFFFFF;
+}
+
+.fundo {
+  position: absolute;
+  top: 50rem;
+  z-index: -12;
+  width: 200vw;
+  height: 75%;
+  background-image: linear-gradient(#107A46, #03850F);
+}
+
+.fundo2 {
+  position: absolute;
+  top: 100rem;
+  z-index: -12;
+  width: 200vw;
+  height: 75%;
+  background-image: linear-gradient(#107A46, #03850F);
 }

@@ -1,6 +1,8 @@
 
 import react from 'react'
 import Slide from '../../assets/image/Slide01.png'
+import Fundo from '../../assets/image/fundo.png'
+import Fundo2 from '../../assets/image/fundo02.png'
 
 import './styles.css';
 
@@ -10,8 +12,8 @@ export default function Home() {
     <>
   
       <img src={Slide} className="slides"/>
-      <h1 className="text">“A evolução é o que nos move, o resultado é o que nos inspira”</h1>
-
+      <img src={Fundo} className="fundo"/>
+      <img src={Fundo2} className="fundo2"/>
     </>
   )
 }
